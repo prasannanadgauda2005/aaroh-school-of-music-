@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaroha School of Music | Anurag Naik</title>
+    <link rel="icon" href="logo.jpeg" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <!-- Animated Graffiti Background -->
+    <div class="graffiti-bg"></div>
+    <div class="graffiti-notes" id="graffiti"></div>
+    
+    <!-- Header -->
+    <header id="header">
+        <button class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="logo">
+            <img src="logo.jpeg" alt="Aaroha Logo">
+            <h1><span>Aaroh School of Music</span></h1>
+        </div>
+        
+        <div class="nav-overlay"></div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+        
+        <button class="cta-button" id="header-cta">
+            <i class="fas fa-music"></i> Request Free Session
+        </button>
+    </header>
+    
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Home Section -->
+        <section id="home">
+            <div class="video-container">
+                <video autoplay muted loop>
+                    <source src="bg.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <div class="hero-content">
+                <h2>Discover Your <span>Musical Journey</span></h2>
+                <p>"Music gives a soul to the universe, wings to the mind, flight to the imagination, and life to everything." Find your musical voice with us.</p>
+                <div class="hero-cta">
+                    <button class="cta-button" id="hero-cta">
+                        <i class="fas fa-music"></i> Request a Free Session
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section id="about">
+            <div class="section-header fade-up">
+                <h2>About Us</h2>
+                <p>Learn about Aaroha School of Music and the musical journey of its founder, Anurag Naik.</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image fade-up">
+                    <img src="anurag.jpg" alt="Anurag Naik">
+                    <div class="image-border"></div>
+                </div>
+                
+                <div class="about-text fade-up">
+                    <h3>Anurag Naik - Founder & Music Director</h3>
+                    <p>With over 15 years of experience in music education and performance, Anurag Naik established Aaroha School of Music with a vision to inspire and nurture musical talent across all age groups.</p>
+                    <p>Trained in both Western and Indian classical traditions, Anurag holds a Master's degree in Music Performance and has collaborated with renowned artists across the globe. His unique teaching methodology combines traditional techniques with modern approaches to create a holistic learning experience.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4>15+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>500+</h4>
+                            <p>Students Trained</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>50+</h4>
+                            <p>Professional Musicians</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Courses Section -->
+        <section id="courses">
+            <div class="section-header fade-up">
+                <h2>Our Courses</h2>
+                <p>Explore our comprehensive music programs designed for all skill levels and age groups.</p>
+            </div>
+            
+            <div class="courses-container">
+                <div class="course-card fade-up">
+                    <div class="course-image
+                    <div class="course-image">
+                        <img src="/api/placeholder/400/200" alt="Course Image">
+                    </div>
+                    <div class="course-content">
+                        <h3>Beginner's Guitar</h3>
+                        <p>Learn the basics of guitar playing, including chords, strumming patterns, and simple songs. Perfect for absolute beginners.</p>
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i> 12 Weeks
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-user"></i> 1-on-1
+                            </div>
+                        </div>
+                        <button class="course-btn">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="course-card fade-up">
+                    <div class="course-image">
+                        <img src="/api/placeholder/400/200" alt="Course Image">
+                    </div>
+                    <div class="course-content">
+                        <h3>Piano for Beginners</h3>
+                        <p>Master the fundamentals of piano playing, including scales, chords, and basic music theory.</p>
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i> 10 Weeks
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-user"></i> Group Class
+                            </div>
+                        </div>
+                        <button class="course-btn">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="course-card fade-up">
+                    <div class="course-image">
+                        <img src="/api/placeholder/400/200" alt="Course Image">
+                    </div>
+                    <div class="course-content">
+                        <h3>Vocal Training</h3>
+                        <p>Develop your singing voice with techniques for breath control, pitch accuracy, and vocal range expansion.</p>
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i> 8 Weeks
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-user"></i> 1-on-1
+                            </div>
+                        </div>
+                        <button class="course-btn">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work">
+            <div class="section-header fade-up">
+                <h2>Our Work</h2>
+                <p>Explore some of the amazing performances and projects by our students and faculty.</p>
+            </div>
+
+            <div class="work-container">
+                <div class="work-item fade-up">
+                    <div class="work-image">
+                        <img src="/api/placeholder/400/250" alt="Performance Image">
+                        <div class="work-overlay">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3>Student Recital 2023</h3>
+                        <p>A showcase of our students' progress and talent in a live performance setting.</p>
+                    </div>
+                </div>
+
+                <div class="work-item fade-up">
+                    <div class="work-image">
+                        <img src="/api/placeholder/400/250" alt="Performance Image">
+                        <div class="work-overlay">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3>Collaborative Concert</h3>
+                        <p>Our faculty and students performing together in a grand musical event.</p>
+                    </div>
+                </div>
+
+                <div class="work-item fade-up">
+                    <div class="work-image">
+                        <img src="/api/placeholder/400/250" alt="Performance Image">
+                        <div class="work-overlay">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3>Music Workshop</h3>
+                        <p>Interactive workshops to explore new musical styles and techniques.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <div class="section-header fade-up">
+                <h2>Our Gallery</h2>
+                <p>Take a look at some memorable moments from our music school</p>
+            </div>
+
+            <div class="gallery-container">
+                <div class="gallery-item fade-up">
+                    <img src="gallery1.jpg" alt="Music Performance">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3>Live Performance</h3>
+                            <p>Student recital 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-up">
+                    <img src="gallery2.jpg" alt="Music Workshop">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3>Music Workshop</h3>
+                            <p>Interactive learning session</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-up">
+                    <img src="gallery3.jpg" alt="Group Performance">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3>Group Performance</h3>
+                            <p>Annual concert 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-up">
+                    <img src="gallery4.jpg" alt="Instrument Training">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3>Instrument Training</h3>
+                            <p>One-on-one sessions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-up">
+                    <img src="gallery5.jpg" alt="Vocal Training">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3>Vocal Training</h3>
+                            <p>Voice modulation workshop</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-up">
+                    <img src="gallery6.jpg" alt="Music Theory">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3>Music Theory</h3>
+                            <p>Understanding composition</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Session Form Section -->
+        <section id="session">
+            <div class="section-header fade-up">
+                <h2>Request a Free Session</h2>
+                <p>Book a free trial session and experience our teaching methodology firsthand.</p>
+            </div>
+
+            <div class="form-container fade-up">
+                <form id="session-form" onsubmit="submitForm(event)">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="age">Age</label>
+                            <input type="number" id="age" name="age" required min="1" max="100">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="gender">Gender</label>
+                            <select id="gender" name="gender" required>
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="location">Preferred Location</label>
+                            <select id="location" name="location" required>
+                                <option value="">Select Location</option>
+                                <option value="Online">Online</option>
+                                <option value="CBD Belapur">CBD Belapur</option>
+                                <option value="Vashi">Vashi</option>
+        
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Request Free Session</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Success Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <h2>Thank You!</h2>
+                <p>Your session request has been submitted successfully. We will contact you shortly to confirm your free trial session.</p>
+            </div>
+        </div>
+
+        <style>
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .modal.active {
+            display: block;
+        }
+
+        .modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 20px;
+            border-radius: 5px;
+            width: 80%;
+            max-width: 500px;
+            position: relative;
+            text-align: center;
+        }
+
+        .close {
+            position: absolute;
+            right: 10px;
+            top: 5px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: #666;
+        }
+        </style>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Aaroha School of Music</h3>
+                <p>Discover your musical potential with our expert guidance and personalized training programs.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#session">Free Session</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <div class="contact-info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>123 Music Lane, Melody City, MC 12345</p>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+1 (234) 567-890</p>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@aarohamusic.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2023 Aaroha School of Music. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Request Free Session</h3>
+                <div class="close-modal" id="close-modal">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>Thank you for your interest! We'll contact you shortly to schedule your free session.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuBtn = document.querySelector('.menu-btn');
+            const nav = document.getElementById('nav');
+            const overlay = document.querySelector('.nav-overlay');
+            const headerCta = document.getElementById('header-cta');
+            const heroCta = document.getElementById('hero-cta');
+            const modal = document.getElementById('modal');
+            const closeModal = document.getElementById('close-modal');
+
+            // Mobile Menu Toggle
+            menuBtn.addEventListener('click', () => {
+                nav.classList.toggle('active');
+                overlay.classList.toggle('active');
+                document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
+            });
+
+            // Close menu when clicking overlay
+            overlay.addEventListener('click', () => {
+                nav.classList.remove('active');
+                overlay.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+
+            // Close menu when clicking a link
+            document.querySelectorAll('#nav a').forEach(link => {
+                link.addEventListener('click', () => {
+                    nav.classList.remove('active');
+                    overlay.classList.remove('active');
+                    document.body.style.overflow = '';
+                });
+            });
+
+            // Handle window resize
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 991) {
+                    nav.classList.remove('active');
+                    overlay.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+
+            // Show modal on CTA click and scroll to form
+            [headerCta, heroCta].forEach(cta => {
+                cta.addEventListener('click', () => {
+                    document.getElementById('session').scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+
+            // Close modal
+            closeModal.addEventListener('click', () => {
+                modal.classList.remove('active');
+            });
+
+            // Scroll animations
+            const fadeUpElements = document.querySelectorAll('.fade-up');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            fadeUpElements.forEach(el => observer.observe(el));
+        });
+
+        // Form submission handler
+        function submitForm(event) {
+            event.preventDefault();
+            
+            // Create URL-encoded data string
+            const formData = new URLSearchParams({
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                age: document.getElementById('age').value,
+                gender: document.getElementById('gender').value,
+                location: document.getElementById('location').value
+            }).toString();
+            
+            const url = 'https://script.google.com/macros/s/AKfycbxfivvfZBGnRH2R6MS_3Ib4IBbhi4cd0NGFrpjYm6yCYeP7PtKz47hocMPTfTjCnA6L/exec';
+            
+            fetch(url + '?' + formData, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                }
+            })
+            .then(() => {
+                // Show success message
+                document.getElementById('session-form').reset();
+                const modal = document.getElementById('modal');
+                modal.classList.add('active');
+                
+                // Hide modal after 3 seconds
+                setTimeout(() => {
+                    modal.classList.remove('active');
+                }, 3000);
+
+                console.log('Form data sent:', formData); // For debugging
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error submitting form. Please try again.');
+            });
+            
+            return false;
+        }
+    </script>
+</body>
+</html>         
